@@ -1,4 +1,4 @@
-# mongoley
+# @chadt.ana/mongoley
 
 To install dependencies:
 
