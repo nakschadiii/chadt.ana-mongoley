@@ -1,0 +1,15 @@
+{
+  "name": "@chadt.ana/mongoley",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "mongoose": "^9.2.4"
+  }
+}
