@@ -1,4 +1,3 @@
-import { getRelation } from "./getRelation";
 import { getRelations } from "./api/getRelations";
 import { setRelation } from "./api/setRelation";
 import { relationsSchema } from "./schemas/relations.schema";
@@ -14,8 +13,6 @@ export default class {
         };
 
         this.getRelations = getRelations.bind(this);
-        this.getRelation = getRelation.bind(this);
         this.setRelation = setRelation.bind(this);
     }
 }
-
